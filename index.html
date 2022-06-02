@@ -10,89 +10,86 @@
 </head>
 
 <body>
-    <section class="header">
-        <header>
-            <h1>Seibert Coins</h1>
-        </header>
-        <!--Menu -->
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Home</a>
-                    <ul><a href="#">Notícias</a>
-        
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#">Coins</a>
-                    <ul><a href="#">Comprar</a>
-                        <li><a href="#">Vender</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#">Personagens</a>
-                    <ul><a href="#">Paladins</a>
-                        <li><a href="#">Knight</a></li>
-                        <li><a href="#">Druid</a></li>
-                        <li><a href="#">Sorcerer</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#">Fale Conosco</a>
-                    <ul><a href="#">Contatos</a>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </section>
-
-    <div class="main_container">
-        <section class="slider">
-            <div class="slider_container">
-                <div><img class="img_slider1" src="coins.png" alt="banner1"></div>
-                <div><img class="img_slider2" src="coins.png" alt="banner2"></div>
-                <div><img class="img_slider3" src="coins.png" alt="banner3"></div>
-                <div><img class="img_slider4" src="coins.png" alt="banner4"></div>
-                <div><img class="img_slider5" src="coins.png" alt="banner5"></div>
-                <div><img class="img_slider6" src="coins.png" alt="banner6"></div>
-            </div>
-        </section>
-        <main>
-            <h1>Novos Itens</h1>
+    <!-- Header -->
+    <header>
+        <h1>Seibert Coins</h1>
+    </header>
+    <!-- Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a>
+                <ul><a href="#">Notícias</a>
+    
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#">Coins</a>
+                <ul><a href="#">Comprar</a>
+                    <li><a href="#">Vender</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#">Personagens</a>
+                <ul><a href="#">Paladins</a>
+                    <li><a href="#">Knight</a></li>
+                    <li><a href="#">Druid</a></li>
+                    <li><a href="#">Sorcerer</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="#">Fale Conosco</a>
+                <ul><a href="#fale_conosco">Contato</a>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <h1>Novos Itens</h1>
+        <div class="boxMain">
             <div class="boxMain">
-                <div class="boxMain">
-                    <div class="boxItem"><h1>Item1</h1></div>
-                    <div class="boxItem"><h1>Item2</h1></div>
-                    <div class="boxItem"><h1>Item3</h1></div>
-                    <div class="boxItem"><h1>Item4</h1></div>
-                    <div class="boxItem"><h1>Item5</h1></div>
-                    <div class="boxItem"><h1>Item6</h1></div>
-                    <div class="boxItem"><h1>Item7</h1></div>
-                    <div class="boxItem"><h1>Item8</h1></div>
-                    <div class="boxItem"><h1>Item9</h1></div>
-                    <div class="boxItem"><h1>Item10</h1></div>
-                    <div class="boxItem"><h1>Item11</h1></div>
-                    <div class="boxItem"><h1>Item12</h1></div>
-                </div>
+                <div class="boxItem"><h1>Item1</h1></div>
+                <div class="boxItem"><h1>Item2</h1></div>
+                <div class="boxItem"><h1>Item3</h1></div>
+                <div class="boxItem"><h1>Item4</h1></div>
+                <div class="boxItem"><h1>Item5</h1></div>
+                <div class="boxItem"><h1>Item6</h1></div>
+                <div class="boxItem"><h1>Item7</h1></div>
+                <div class="boxItem"><h1>Item8</h1></div>
+                <div class="boxItem"><h1>Item9</h1></div>
+                <div class="boxItem"><h1>Item10</h1></div>
+                <div class="boxItem"><h1>Item11</h1></div>
+                <div class="boxItem"><h1>Item12</h1></div>
             </div>
-        </main>
-        <aside class="discription">
-            <div>
-                <div>
-                    <h1>Descrição do Item</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam ipsa sed nesciunt magni minima hic! Fuga, aliquid. Fugit, magnam! Eos fuga tenetur atque vero dignissimos deserunt doloremque quod laudantium?</p>
-                </div>
-                <form action="">
-                    <button>Comprar</button>
-                    <button>Adicionar ao Carrinho</button>
-                </form>
-            </div>
-        </aside>
-    </div>
-    <footer>
+        </div>
+    </main>
 
+    <!--Item Description -->
+    <aside class="description">
+        <div>
+            <div>
+                <h1>Descrição do Item</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam ipsa sed nesciunt magni minima hic! Fuga, aliquid. Fugit, magnam! Eos fuga tenetur atque vero dignissimos deserunt doloremque quod laudantium?</p>
+            </div>
+            <form action="">
+                <button>Comprar</button>
+                <button>Adicionar ao Carrinho</button>
+            </form>
+        </div>
+    </aside>
+    <footer>
+        <form action="" id="fale_conosco">
+            <label for="Name">Nome:</label>
+            <input type="text" placeholder="Seu nome">
+            <label for="Telefone">Telefone:</label>
+            <input type="text" placeholder="Seu Telefone">
+            <label for="Mensagem">Mensagem:</label>
+            <textarea name="Texto" id="" cols="30" rows="5" placeholder="Sua Mensagem..."></textarea>
+            <input type="button" value="Enviar">
+        </form>
     </footer>
 </body>
 </html>
