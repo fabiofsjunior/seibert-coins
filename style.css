@@ -229,12 +229,26 @@ input[type="button"]{
     background-color: var(--cor2);
 }
 
+@media screen and (max-width: 2000px) {
+    .boxItem{
+        width: 300px;
+        height: 300px;
+    }
+}
+
 
 @media screen and (max-width: 1440px) {
 
     aside.description_Right{
         display: none;
     }
+    .boxItem{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+
 }
 
 
@@ -260,8 +274,9 @@ input[type="button"]{
     footer *{
         font-size: small;
     }
+
     footer form label{
-        font-size: large
+        font-size: large;
 
     
 }
@@ -301,4 +316,5 @@ input[type="button"]{
         font-size: medium;
     }
 
+}
 }
