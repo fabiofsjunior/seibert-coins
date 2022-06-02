@@ -156,7 +156,7 @@ main > h1{
 
 
 
-aside.description{
+aside.description_Right{
     display: block;
     position: absolute;
     background-color: white;
@@ -167,6 +167,7 @@ aside.description{
     box-shadow: 5px 5px 15px #342e37;
     z-index: -1;
     border-radius: 5px;
+    text-align: justify;
 }
 aside div div{
     padding: 10px;
@@ -181,7 +182,21 @@ aside p{
     padding-left: 15px;
     padding-right: 15px;
     border: 1px dashed black;
+}
 
+#aside_buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#aside_avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aside_avatar img{
+    border-radius: 50%;
+    width: 50px;
+    
 }
 
 footer{
@@ -202,11 +217,22 @@ footer form label, input, textarea{
     font-size: x-large;
     border-radius: 10px;
 }
+.button_form{
+    margin: 5px;
+}
+input[type="button"]{
+    margin-left: 75%;
+    padding: 0px 5px 0px 5px;
+    width: fit-content;
+}
+.button_hover:hover{
+    background-color: var(--cor2);
+}
 
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1440px) {
 
-    aside.description{
+    aside.description_Right{
         display: none;
     }
 }

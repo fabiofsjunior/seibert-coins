@@ -48,7 +48,7 @@
     </nav>
     <!-- Main Content -->
     <main>
-        <h1>Novos Itens</h1>
+        <h1>Marketplace</h1>
         <div class="boxMain">
             <div class="boxMain">
                 <div class="boxItem"><h1>Item1</h1></div>
@@ -66,29 +66,47 @@
             </div>
         </div>
     </main>
-
-    <!--Item Description -->
-    <aside class="description">
+    <!--Item Description Left Side -->
+    <aside class="description_Left">
+        <div>
+            <ul></ul>
+        </div>
+    </aside>
+    <!--Item Description Right Side -->
+    <aside class="description_Right">
         <div>
             <div>
                 <h1>Descrição do Item</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam ipsa sed nesciunt magni minima hic! Fuga, aliquid. Fugit, magnam! Eos fuga tenetur atque vero dignissimos deserunt doloremque quod laudantium?</p>
             </div>
-            <form action="">
-                <button>Comprar</button>
-                <button>Adicionar ao Carrinho</button>
+            <form id="aside_buttons" action="">
+                <button class="button_form" class="button_hover">Comprar</button>
+                <button class="button_form" class="button_hover">Adicionar ao Carrinho</button>
             </form>
+            <div>
+                <h3>Comentários</h3>
+                <div>
+                    <div id="aside_avatar"><img src="coins.png" alt=""><span>Nome do Usuário</span></div>
+                    <div>
+                    <strong>Comentário:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div>
+                    <div id="aside_avatar"><img src="coins.png" alt=""><span>Nome do Usuário</span></div>
+                    <div>
+                    <strong>Comentário:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
         </div>
     </aside>
     <footer>
         <form action="" id="fale_conosco">
             <label for="Name">Nome:</label>
             <input type="text" placeholder="Seu nome">
-            <label for="Telefone">Telefone:</label>
-            <input type="text" placeholder="Seu Telefone">
+            <label for="Telefone">(Telefone):</label>
+            <input type="text" placeholder="(xx)xxxxx-xxxx">
             <label for="Mensagem">Mensagem:</label>
             <textarea name="Texto" id="" cols="30" rows="5" placeholder="Sua Mensagem..."></textarea>
-            <input type="button" value="Enviar">
+            <div class="button_form"><input type="button" value="Enviar" class="button_hover"></div>
         </form>
     </footer>
 </body>
