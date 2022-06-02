@@ -257,6 +257,12 @@ input[type="button"]{
         top: 15vh;
         max-width: 450px;
     }
+    footer *{
+        font-size: small;
+    }
+    footer form label{
+        font-size: large
+
     
 }
 
@@ -284,11 +290,15 @@ input[type="button"]{
     }
     footer{
         padding: 10px;
+        height: fit-content;
     }
 
     footer *{
         font-size: small;
+    }
 
+    footer form label{
+        font-size: medium;
     }
 
 }
