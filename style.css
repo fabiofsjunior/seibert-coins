@@ -161,13 +161,33 @@ aside.slider{
 
 .slider_container{
     max-width: 800px;
-    display: flex;
+    display: none;
+    position: absolute;
+    background-color: #342e37;
+    height: 640px;
+    width: 640px;
+    top: 22vh;
+    left: 17vw;
+
 }
 
-.img_slider{
-    width: 300px;
-    height: 300px;
-    visibility: hidden;
+.img_slider1{
+    display: none;
+}
+.img_slider2{
+    display: none;
+}
+.img_slider3{
+    display: none;
+}
+.img_slider4{
+    display: none;
+}
+.img_slider5{
+    display: none;
+}
+.img_slider6{
+    display: none;
 }
 
 
